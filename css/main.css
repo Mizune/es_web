@@ -1,0 +1,266 @@
+* {
+	margin:0 auto;
+	padding:0;
+	font-family:"Arial", sans-serif;
+}
+
+/*なんか　特徴あるのにしてもいいかも*/
+body {
+
+}
+
+
+.nav_left {
+	position: fixed;
+	top:0;
+	left:0;
+	width:300px;
+	height: 100%;
+	text-align:center;
+	background-color:#5BEF47;
+	/*min をアイコンサイズに*/
+}
+
+.nav_left h1 {
+	display:block;
+	width:100%;
+	padding-top:50px;
+	padding-bottom:50px;
+}
+
+.nav_left h1 img {
+	width:100%;
+	height:auto;
+	padding-left:20px;
+	padding-right:20px;
+}
+
+.nav_left ul{
+	list-style-type: none;
+}
+
+.nav_left ul li{
+	height:60px;
+	text-align:center;
+	border-top:1px solid #C6EDFF;
+}
+
+.nav_left ul li:last-child{
+	border-bottom: 1px solid #C6EDFF;
+}
+
+.nav_left ul li a{
+	display:block;
+	width:100%;
+	height:100%;
+	text-align: center;
+	vertical-align: baseline;
+	padding:15px 0;
+	color:#C6EDFF;
+	font-size:150%;
+	text-decoration: none;
+	-webkit-transition: all .50s ease;
+	   -moz-transition: all .50s ease;
+	    -ms-transition: all .50s ease;
+	     -o-transition: all .50s ease;
+	        transition: all .50s ease;
+}
+.nav_left ul li a:hover{
+	color:#7BFF67;
+	background-color:#3BCF87;
+}
+
+.nav_footer span{
+	color:#aaa;
+}
+
+.nav_current{
+	color:#7BFF67;
+	background-color:#3BCF87;
+}
+
+.content-wrapper{
+	max-width:1000px;
+	min-width:600px;
+	margin-left:400px;
+	padding-bottom:100px;
+}
+
+.top-img {
+	width:1000px;
+	height:400px;
+	margin:50px 0;
+}
+
+.top-img img{
+	width:100%;
+	height:400px;
+
+}
+
+.top-news-wrapper{
+	width:1000px;
+	padding:10px 20px;
+	background-color:#e9ffd0;
+	border-radius:10px;
+}
+
+.top-news-header h1{
+	color:#58D201;
+	padding-left:10px;
+	line-height:0.6em;
+	border-left:5px solid #58D201;
+}
+
+.ruby-news {
+	color:#37B901;
+	font-size:15px;
+	margin-left:20px;
+}
+
+.news-icon {
+	height:100px;
+	width:130px;
+}
+
+.news-title{
+	margin-top:-5px;
+}
+
+.news-date{
+	font-size:15px;
+	margin-top:-10px;
+}
+
+.news-content {
+	width:900px;
+	margin:30px 20px 10px 20px;
+	padding-bottom:30px;
+	border-bottom:1px solid #ccc;
+}
+
+.news-content:last-child{
+	border-bottom:none;
+}
+
+
+
+
+
+span.excolor{
+	color:red;
+}
+
+span.downcolor{
+	color:blue;
+}
+span.upcolor{
+	color:yellow;
+}
+
+span.bgcolor{
+	color:#ccc;
+}
+
+#page-top{
+	width:50px;
+	height:50px;
+	display:none;
+
+	position:fixed;
+
+	right:30px;
+	bottom:30px;
+}
+
+#page-top p{
+	border-radius:50%;
+	margin:0;
+	padding:0;
+	text-align:center;
+	background:#ccc;
+	-webkit-transition: all .50s ease;
+	   -moz-transition: all .50s ease;
+	    -ms-transition: all .50s ease;
+	     -o-transition: all .50s ease;
+	        transition: all .50s ease;
+}
+
+#page-top p:hover {
+	background-color:#aaa;
+	color:#fff;
+}
+
+#move-page-top{
+	display:block;
+	color:#fff;
+	font-size:30px;
+	width:50px;
+	height:50px;
+	line-height:50px;
+	text-decoration:none;
+	cursor:pointer;
+
+}
+
+
+.twitter-wrapper{
+	width:100%;
+	padding:10px 20px;
+	margin-top:50px;
+	background-color:#d0ffe9;
+	border-radius:10px;
+}
+
+
+.twitter-header h1{
+	color:#58D201;
+	padding-left:10px;
+	line-height:0.6em;
+	border-left:5px solid #58D201;
+}
+
+.ruby-twitter {
+	color:#37B901;
+	font-size:15px;
+	margin-left:20px;
+}
+
+.twitter-content {
+	widtn:100%;
+	text-align: center;
+}
+
+.product_dropdown{
+	position:absolute;
+	z-index:999;
+	top:0px;
+	left:300px;
+	width:0;
+	transition:1s all ease-in-out;
+}
+
+.drop_menu{
+	opacity:0;
+	width:0;
+	height:0;
+	text-align:center;
+	background:#5B9447;
+	border-top:1px solid #C6EDFF;
+	transition:0.5s all ease-in;
+}
+
+#product{
+	position:relative;
+}
+
+#product:hover > .product_dropdown .drop_menu{
+	opacity:1;
+	width:300px;
+	height:60px;
+}
+
+#product:hover > .product_dropdown{
+	opacity:1;
+	width:300px;
+}

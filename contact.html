@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="ja">
+<!-- いいフォント探そう -->
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Encount Soft</title>
+
+    <!-- Bootstrap -->
+    <link href="bootstrap-dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="css/contact.css">
+  </head>
+  <body>
+    <div class="wrapper">
+      <div id="page-top" style="width:0;height:0;"></div>
+      <div class="nav_left">
+        <h1>
+          <a href="#">
+            <img src="./img/logo.png">
+          </a>
+        </h1>
+        <ul>
+          <li id="about">
+            <a href="about.html">About</a>
+          </li>
+          <li id="product">
+            <a href="404.html">Product</a>
+          </li>
+          <li id="blog">
+            <a href="404.html">Blog</a>
+          </li>
+          <li id="gallery">
+            <a href="gallery.html">Gallery</a>
+          </li>
+          <li id="contact">
+            <a href="contact.html">Contact</a>
+          </li>
+          <li id="links">
+            <a href="404.html">Links</a>
+          </li>
+        </ul>
+        <div class="nav_footer">
+          <span>copyright &copy; 2014-2015 EncountSoft.<br> All right reserved.</span>
+        </div>
+      </div>
+      <div class="content-wrapper">
+        <div class="top-img">
+          <img src="#">
+        </div>
+        <div class="contact_wrapper">
+          <div class="contact_header">
+            <h1>Contact<br>
+            <span class="ruby_contact">メッセージ</span></h1>
+          </div>
+          <br>
+          <form role="form">
+
+            <!--
+            label : フォームのラベル
+            form-control : 入力欄や選択などのフォームパーツ
+
+            form-group : labelとform-groupを最適な位置に配置するために使う
+          -->
+
+          <div class="form-group">
+            <label for="name">HandleName</label>
+            <input type="text" class="form-control" id="name" placeholder="Mizune Kusunoki">
+          </div>
+          <div class="form-group">
+            <label for="title">Title</label>
+            <input type="text" class="form-control" id="title" placeholder="感想について">
+          </div>
+          <div class="form-group">
+            <label for="email">Mail Address</label>
+            <input type="email" class="form-control" id="email" placeholder="mizune@encountsoft.com">
+          </div>
+          <div class="form-group">
+            <label for="content">Content</label>
+            <textarea class="form-control" rows="10" placeholder="〜〜が〜〜で〜〜でした！"></textarea>
+          </div>
+          <button type="submit" class="btn btn-default">Submit</button>
+        </form>
+
+        </div>
+
+      </div>
+      <div id="page-top">
+        <p><a id="move-page-top">▲</a></p>
+      </div>
+    </div>
+
+    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+    <script src="jquery.animate-colors-min.js"></script>
+    <!-- Include all compiled plugins (below), or include individual files as needed -->
+    <script src="bootstrap-dist/js/bootstrap.min.js"></script>
+    <script src="js/main.js"></script>
+    <script src="js/return_top.js"></script>
+    <!-- <footer id="footer">
+      <div class="col-md-12">
+        <p>
+          <a href="index.html">Home</a>　<a href="about.html">About</a>　<a href="product.html">Product</a>　<a href="member.html">Blog</a> <a href="gallery.html">Gallery</a> <a href="contact.html">Contact</a>　<a href="links.html">links</a>　
+          <br>copyright &copy; 2014-2015 EncountSoft. All right reserved. </p>
+      </div>
+    </footer> -->
+  </body>
+</html>

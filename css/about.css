@@ -1,0 +1,291 @@
+* {
+	margin:0 auto;
+	padding:0;
+}
+
+/*なんか　特徴あるのにしてもいいかも*/
+body {
+
+}
+
+.nav_left {
+	position: fixed;
+	top:0;
+	left:0;
+	width:300px;
+	height: 100%;
+	text-align:center;
+	background-color:#5BEF47;
+	/*min をアイコンサイズに*/
+}
+
+.nav_left h1 {
+	display:block;
+	width:100%;
+	padding-top:50px;
+	padding-bottom:50px;
+}
+
+.nav_left h1 img {
+	width:100%;
+	height:auto;
+	padding-left:20px;
+	padding-right:20px;
+}
+
+.nav_left ul{
+	list-style-type: none;
+}
+
+.nav_left ul li{
+	height:60px;
+	text-align:center;
+	border-top:1px solid #C6EDFF;
+}
+
+.nav_left ul li:last-child{
+	border-bottom: 1px solid #C6EDFF;
+}
+
+.nav_left ul li a{
+	display:block;
+	width:100%;
+	height:100%;
+	text-align: center;
+	vertical-align: baseline;
+	padding:15px 0;
+	color:#C6EDFF;
+	font-size:150%;
+	text-decoration: none;
+	-webkit-transition: all .50s ease;
+	   -moz-transition: all .50s ease;
+	    -ms-transition: all .50s ease;
+	     -o-transition: all .50s ease;
+	        transition: all .50s ease;
+}
+.nav_left ul li a:hover{
+	color:#7BFF67;
+	background-color:#3BCF87;
+}
+
+.nav_footer span{
+	color:#aaa;
+}
+
+.nav_current{
+	color:#7BFF67;
+	background-color:#3BCF87;
+}
+
+.content-wrapper{
+	margin-top:80px;
+	width:1000px;
+	margin-left:400px;
+	padding-bottom:100px;
+}
+
+.intro-wrapper{
+	width:1000px;
+	padding:10px 20px;
+	background-color:#e9ffd0;
+	border-radius:10px;
+}
+
+.intro-header h1{
+	color:#58D201;
+	padding-left:10px;
+	line-height:0.6em;
+	border-left:5px solid #58D201;
+}
+
+.ruby-intro {
+	color:#37B901;
+	font-size:15px;
+	margin-left:20px;
+}
+.intro-content {
+	width:900px;
+	margin:30px 20px 10px 20px;
+	padding-bottom:30px;
+	border-bottom:1px solid #ccc;
+}
+
+.intro-content:last-child{
+	border-bottom:none;
+}
+
+.intro-icon {
+	width:250px;
+	height:250px;
+}
+
+
+
+
+
+span.excolor{
+	color:red;
+}
+
+span.downcolor{
+	color:blue;
+}
+span.upcolor{
+	color:yellow;
+}
+
+span.bgcolor{
+	color:#ccc;
+}
+
+#page-top{
+	width:50px;
+	height:50px;
+	display:none;
+
+	position:fixed;
+
+	right:30px;
+	bottom:30px;
+}
+
+#page-top p{
+	border-radius:50%;
+	margin:0;
+	padding:0;
+	text-align:center;
+	background:#ccc;
+	-webkit-transition: all .50s ease;
+	   -moz-transition: all .50s ease;
+	    -ms-transition: all .50s ease;
+	     -o-transition: all .50s ease;
+	        transition: all .50s ease;
+}
+
+#page-top p:hover {
+	background-color:#aaa;
+	color:#fff;
+}
+
+#move-page-top{
+	display:block;
+	color:#fff;
+	font-size:30px;
+	width:50px;
+	height:50px;
+	line-height:50px;
+	text-decoration:none;
+	cursor:pointer;
+
+}
+
+.intro-belief {
+	margin-top:30px;
+}
+
+.intro-belief h3{
+	color:blue;
+}
+
+.intro-belief h3:nth-child(2){
+	margin-left:20px;
+}
+
+.intro-belief h3:nth-child(3){
+	margin-left:40px;
+}
+
+
+.member-wrapper{
+	width:100%;
+	margin-top:60px;
+	padding:10px 20px;
+	background-color:#e9ffd0;
+	border-radius:10px;
+}
+
+.member-header h1{
+	color:#58D201;
+	padding-left:10px;
+	line-height:0.6em;
+	border-left:5px solid #58D201;
+}
+
+.ruby-member {
+	color:#37B901;
+	font-size:15px;
+	margin-left:20px;
+}
+.member-content {
+	width:900px;
+	margin:30px 20px 10px 20px;
+	padding-bottom:30px;
+	border-bottom:1px solid #ccc;
+}
+
+.member-content:last-child{
+	border-bottom:none;
+}
+
+table.member_cell{
+	padding-top:15px;
+	width:650px;
+	margin:0 auto;
+	border-collapse:separate;
+	border-spacing:5px;
+}
+
+table.member_cell th,
+table.member_cell td {
+	padding:10px;
+}
+
+table.member_cell th{
+	background:#295890;
+	vertical-align:middle;
+	text-align:center;
+	width:100px;
+	overflow:visible;
+	position:relative;
+	color:#fff;
+	font-weight:normal;
+	font-size:15px;
+}
+
+table.member_cell th:after{
+	left:100%;
+	top:50%;
+	border:solid transparent;
+	content: " ";
+	height:0;
+	width:0;
+	position:absolute;
+	pointer-ivents:none;
+	border-color: rgba(136,183,213,0);
+	border-left-color:#295890;
+	border-width:10px;
+	margin-top:-10px;
+}
+
+@-moz-document url-prefix(){
+	table.member-left-icon th::after{
+		float:right;
+		padding:0;
+		left:30px;
+		top:10px;
+		content:" ";
+		height:0;
+		width:0;
+		position:relative;
+		pointer-events:none;
+		border:10px solid transparent;
+		border-left:#295890 10px solid;
+		margin-top:-10px;
+	}
+}
+
+table.member_cell td{
+	background:#f8f8f8;
+	width:360px;
+	padding-left:20px;
+}

@@ -1,0 +1,80 @@
+*{
+	margin:0 auto;
+	padding: 0;
+}
+
+.wrapper{
+	margin:100px 0;
+}
+
+.circle{
+	width:600px;
+	height:600px;
+	border-radius:50%;
+	border:2px solid green;
+	box-shadow:10px 10px 10px rgba(0,0,0,0.4);
+}
+
+.ent_icon{
+	width:600px;
+	height:250px;
+	margin-top:60px;
+}
+
+.ent_icon img{
+	margin:0 150px;
+	width:300px;
+	height:200px;
+}
+
+.emargency{
+	width:600px;
+	height:200px;
+	margin-top:50px;
+}
+
+.emargency p{
+	width:65%;
+	font-size:20px;
+	color:green;
+}
+
+
+.control{
+	margin-top:50px;
+	width:600px;
+	height:200px;
+}
+
+.control a{
+	display:block;
+	width:200px;
+	height:60px;
+	text-align:center;
+	line-height:60px;
+	color:#FCFAF2;
+	font-size:20px;
+	text-decoration:none;
+	border-radius:4px;
+}
+
+.entry_btn{
+	float:left;
+	margin-left:70px;
+	background:#7BAA17;
+	box-shadow:5px 5px 5px 5px rgba(0,0,0,0.4);
+}
+
+
+.leave_btn{
+	float:right;
+	margin-right:70px;
+	background:#0086CC;
+	box-shadow:5px 5px 5px 5px rgba(0,0,0,0.4)
+}
+
+.leave_btn:after{
+	content:"";
+	display:block;
+	clear:both;
+}
